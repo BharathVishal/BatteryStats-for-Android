@@ -7,11 +7,9 @@ Displays the Battery stats of an Android device using Broadcast receiver in Andr
 2. Modify the code to suit your needs.
 3. Watch out for more features.
 
-
 &nbsp;
 ### Stats Displayed :
 Battery Level, Battery type, Battery temp(in C and F), Charging Power Source, Status, Battery Voltage, Battery Health and Fast charging.
-
 
 &nbsp;
 ### Screenshots : 
