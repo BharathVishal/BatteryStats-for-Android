@@ -12,6 +12,8 @@ Displays the Battery stats of an Android device using Broadcast receiver in Andr
 
 &nbsp;
 ### Screenshots : 
+![Screenshot 1](https://github.com/BharathVishal/AndroidBatteryStats/blob/master/Screenshots/1.jpg)
+![Screenshot 2](https://github.com/BharathVishal/AndroidBatteryStats/blob/master/Screenshots/2.jpg)
 
 
 &nbsp;
