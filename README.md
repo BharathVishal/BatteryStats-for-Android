@@ -9,12 +9,14 @@ Displays the Battery stats of an Android device using Broadcast receiver in Andr
 
 &nbsp;
 ### Stats Displayed :
-Battery Level, Battery type, Battery temp(in C and F), Charging Power Source, Status, Battery Voltage, Battery Health and Fast charging.
-
-&nbsp;
-### Screenshots : 
-![Screenshot 1](https://github.com/BharathVishal/AndroidBatteryStats/blob/master/Screenshots/1.jpg?s=90)
-![Screenshot 2](https://github.com/BharathVishal/AndroidBatteryStats/blob/master/Screenshots/2.jpg?s=90)
+- Battery Level
+- Battery type
+- Battery temp(in C and F)
+- Charging Power Source
+- Status
+- Battery Voltage
+- Battery Health 
+- Fast charging.
 
 
 &nbsp;
@@ -23,7 +25,12 @@ Battery Level, Battery type, Battery temp(in C and F), Charging Power Source, St
 
 
 &nbsp;
+### Screenshots : 
+![Screenshot 1](https://github.com/BharathVishal/AndroidBatteryStats/blob/master/Screenshots/1.jpg?s=90)
+![Screenshot 2](https://github.com/BharathVishal/AndroidBatteryStats/blob/master/Screenshots/2.jpg?s=90)
 
+
+&nbsp;
 ### Year developed : 
 2018
 
@@ -31,16 +38,15 @@ Battery Level, Battery type, Battery temp(in C and F), Charging Power Source, St
 &nbsp;
 
 ### SDK Info : 
-Min SDK : 16  | Target SDK : 27 | Gradle : 3.0.1
+Min SDK : 16  | Target SDK : 27 | Gradle : 3.1.3
 
 &nbsp;
 
 
 ### Android Studio Version : 
-Android Studio 3.0.1
+Android Studio 3.1.3
 
 
 &nbsp;
-
 © 2018. Developed by Bharath Vishal G (https://github.com/BharathVishal).
 Thank you. :smile:
