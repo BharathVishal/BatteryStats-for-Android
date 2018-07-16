@@ -16,7 +16,7 @@ Displays the Battery stats of an Android device using Broadcast receiver in Andr
 - Status
 - Battery Voltage
 - Battery Health 
-- Fast charging.
+- Fast charging
 
 
 &nbsp;
