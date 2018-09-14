@@ -1,3 +1,7 @@
+<h1 align=center>
+<img src="logo/1024 Logotype.svg" width=100%>
+</h1>
+
 # AndroidBatteryStats
 Displays the Battery stats of an Android device using Broadcast receiver in Android Studio.
 
