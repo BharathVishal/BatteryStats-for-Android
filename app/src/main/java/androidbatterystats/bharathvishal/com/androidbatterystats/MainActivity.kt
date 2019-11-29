@@ -6,6 +6,7 @@ import android.content.Context
 import android.content.Intent
 import android.content.IntentFilter
 import android.os.BatteryManager
+import android.os.Build
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
 import kotlinx.android.synthetic.main.activity_main.*
@@ -22,6 +23,13 @@ class MainActivity : AppCompatActivity() {
     private val batteryStatsReceiver = object : BroadcastReceiver() {
         @SuppressLint("SetTextI18n")
         override fun onReceive(context: Context, intent: Intent) {
+
+            if (Build.VERSION.SDK_INT >= 28) {
+                val mBatteryManager = context.getSystemService(Context.BATTERY_SERVICE) as BatteryManager
+                mBatteryManager.computeChargeTimeRemaining()
+            }
+
+
             val isPresent = intent.getBooleanExtra("present", false)
             val technology = intent.getStringExtra("technology")
             val plugged = intent.getIntExtra("plugged", -1)
