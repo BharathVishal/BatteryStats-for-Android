@@ -52,5 +52,5 @@ Android Studio 3.5.1
 
 
 &nbsp;
-© 2018-2019. Developed by Bharath Vishal (https://github.com/BharathVishal). Logo designed by Mirza Zulfan(https://github.com/mirzazulfan).
+© 2018-2020. Developed by Bharath Vishal (https://github.com/BharathVishal). Logo designed by Mirza Zulfan(https://github.com/mirzazulfan).
 Thank you. :smile:
