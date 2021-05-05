@@ -8,8 +8,8 @@ import android.content.IntentFilter
 import android.os.BatteryManager
 import android.os.Build
 import android.os.Bundle
+import androidbatterystats.bharathvishal.com.androidbatterystats.databinding.ActivityMainBinding
 import androidx.appcompat.app.AppCompatActivity
-import kotlinx.android.synthetic.main.activity_main.*
 
 
 /**
@@ -18,6 +18,7 @@ import kotlinx.android.synthetic.main.activity_main.*
 
 class MainActivity : AppCompatActivity() {
     private lateinit var activityContext: Context
+    private lateinit var binding: ActivityMainBinding
 
 
     private val batteryStatsReceiver = object : BroadcastReceiver() {
@@ -47,31 +48,31 @@ class MainActivity : AppCompatActivity() {
                     level = rawLevel * 100 / scale
                 }
 
-                Battery_Level.text = (+level).toString() + "%"
-                Battery_Type.text = technology
-                Power_Source.text = getPlugTypeResultString(plugged)
-                Battery_Voltage.text = Constants.STRING_EMPTY + voltage / 1000.0f + " V"
-                Battery_Status.text = getStatusResultString(status)
-                Battery_Health.text = getHealthResultString(health)
-                Fast_Charging.text = Constants.STRING_EMPTY + fastchargestatus
+                binding.BatteryLevel.text = (+level).toString() + "%"
+                binding.BatteryType.text = technology
+                binding.PowerSource.text = getPlugTypeResultString(plugged)
+                binding.BatteryVoltage.text = Constants.STRING_EMPTY + voltage / 1000.0f + " V"
+                binding.BatteryStatus.text = getStatusResultString(status)
+                binding.BatteryHealth.text = getHealthResultString(health)
+                binding.FastCharging.text = Constants.STRING_EMPTY + fastchargestatus
 
-                txtProgress_Battery.text = level.toString() + "%"
+                binding.txtProgressBattery.text = level.toString() + "%"
 
                 val tempInCelsius = temperature / 10.0f
                 val tempInFarheneit = 9 / 5 * tempInCelsius + 32.0f
 
-                Battery_Temp.text = Constants.STRING_EMPTY + tempInCelsius + " C / " + tempInFarheneit + " F"
+                binding.BatteryTemp.text = Constants.STRING_EMPTY + tempInCelsius + " C / " + tempInFarheneit + " F"
             } else {
-                txtProgress_Battery.text = Constants.SYMBOL_HYPHEN
+                binding.txtProgressBattery.text = Constants.SYMBOL_HYPHEN
 
-                Battery_Level.text = Constants.SYMBOL_HYPHEN
-                Battery_Type.text = Constants.SYMBOL_HYPHEN
-                Power_Source.text = Constants.SYMBOL_HYPHEN
-                Battery_Temp.text = Constants.SYMBOL_HYPHEN
-                Battery_Voltage.text = Constants.SYMBOL_HYPHEN
-                Battery_Status.text = Constants.SYMBOL_HYPHEN
-                Battery_Health.text = Constants.SYMBOL_HYPHEN
-                Fast_Charging.text = Constants.SYMBOL_HYPHEN
+                binding.BatteryLevel.text = Constants.SYMBOL_HYPHEN
+                binding.BatteryType.text = Constants.SYMBOL_HYPHEN
+                binding.PowerSource.text = Constants.SYMBOL_HYPHEN
+                binding.BatteryTemp.text = Constants.SYMBOL_HYPHEN
+                binding.BatteryVoltage.text = Constants.SYMBOL_HYPHEN
+                binding.BatteryStatus.text = Constants.SYMBOL_HYPHEN
+                binding.BatteryHealth.text = Constants.SYMBOL_HYPHEN
+                binding.FastCharging.text = Constants.SYMBOL_HYPHEN
             }
         }
     }
@@ -116,7 +117,9 @@ class MainActivity : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        this.setContentView(R.layout.activity_main)
+        binding= ActivityMainBinding.inflate(layoutInflater)
+        val view = binding.root
+        setContentView(view)
 
         //Get the context of the Activity
         activityContext = this
