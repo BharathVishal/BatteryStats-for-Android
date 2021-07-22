@@ -56,7 +56,7 @@ class MainActivity : AppCompatActivity() {
                 binding.BatteryHealth.text = getHealthResultString(health)
                 binding.FastCharging.text = Constants.STRING_EMPTY + fastchargestatus
 
-                binding.txtProgressBattery.text = level.toString() + "%"
+                binding.txtProgressBattery.text = "$level%"
 
                 val tempInCelsius = temperature / 10.0f
                 val tempInFarheneit = 9 / 5 * tempInCelsius + 32.0f
