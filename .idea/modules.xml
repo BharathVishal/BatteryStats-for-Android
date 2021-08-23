@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/AndroidBatteryStats.iml" filepath="$PROJECT_DIR$/AndroidBatteryStats.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/AndroidBatteryStats.iml" filepath="$PROJECT_DIR$/.idea/AndroidBatteryStats.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/AndroidBatteryStats.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/AndroidBatteryStats.app.iml" />
     </modules>
   </component>
