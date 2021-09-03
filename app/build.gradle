@@ -9,8 +9,8 @@ android {
         applicationId "androidbatterystats.bharathvishal.com.androidbatterystats"
         minSdkVersion 21
         targetSdkVersion 31
-        versionCode 21
-        versionName "1.2.8"
+        versionCode 23
+        versionName "1.2.9"
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
     }
     buildFeatures {
