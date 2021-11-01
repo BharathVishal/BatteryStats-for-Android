@@ -10,6 +10,7 @@ import android.os.Build
 import android.os.Bundle
 import androidbatterystats.bharathvishal.com.androidbatterystats.databinding.ActivityMainBinding
 import androidx.appcompat.app.AppCompatActivity
+import com.google.android.material.color.DynamicColors
 
 
 /**
@@ -26,7 +27,8 @@ class MainActivity : AppCompatActivity() {
         override fun onReceive(context: Context, intent: Intent) {
 
             if (Build.VERSION.SDK_INT >= 28) {
-                val mBatteryManager = context.getSystemService(Context.BATTERY_SERVICE) as BatteryManager
+                val mBatteryManager =
+                    context.getSystemService(Context.BATTERY_SERVICE) as BatteryManager
                 mBatteryManager.computeChargeTimeRemaining()
             }
 
@@ -61,7 +63,8 @@ class MainActivity : AppCompatActivity() {
                 val tempInCelsius = temperature / 10.0f
                 val tempInFarheneit = 9 / 5 * tempInCelsius + 32.0f
 
-                binding.BatteryTemp.text = Constants.STRING_EMPTY + tempInCelsius + " C / " + tempInFarheneit + " F"
+                binding.BatteryTemp.text =
+                    Constants.STRING_EMPTY + tempInCelsius + " C / " + tempInFarheneit + " F"
             } else {
                 binding.txtProgressBattery.text = Constants.SYMBOL_HYPHEN
 
@@ -117,7 +120,12 @@ class MainActivity : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        binding= ActivityMainBinding.inflate(layoutInflater)
+        try {
+            DynamicColors.applyToActivitiesIfAvailable(application)
+        } catch (e: Exception) {
+            e.printStackTrace()
+        }
+        binding = ActivityMainBinding.inflate(layoutInflater)
         val view = binding.root
         setContentView(view)
 
