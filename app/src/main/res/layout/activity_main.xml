@@ -3,24 +3,35 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical"
-    android:padding="16dp">
+    android:orientation="vertical">
 
-    <androidx.cardview.widget.CardView xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    <com.google.android.material.appbar.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <com.google.android.material.appbar.MaterialToolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            app:title="@string/app_name" />
+    </com.google.android.material.appbar.AppBarLayout>
+
+
+    <androidx.cardview.widget.CardView
         android:id="@+id/card_view"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_margin="16dp"
         android:orientation="vertical"
-        card_view:cardCornerRadius="4dp"
-        card_view:cardElevation="5dp"
-        card_view:cardMaxElevation="5dp">
+        app:cardCornerRadius="12dp"
+        app:cardElevation="1dp">
 
 
         <ScrollView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_alignParentBottom="true"
-            android:layout_alignParentLeft="true">
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentBottom="true">
 
 
             <LinearLayout
@@ -85,7 +96,6 @@
                         android:maxLines="1"
                         android:text="Battery Info"
                         android:textAllCaps="true"
-                        android:textColor="@color/colorPrimary"
                         android:textStyle="bold" />
 
                 </LinearLayout>
@@ -95,8 +105,8 @@
                     android:layout_width="match_parent"
                     android:layout_height="0.5sp"
                     android:layout_marginLeft="10dp"
-                    android:layout_marginRight="10dp"
                     android:layout_marginTop="15dp"
+                    android:layout_marginRight="10dp"
                     android:background="@android:color/darker_gray" />
 
 
@@ -116,9 +126,9 @@
                         android:fontFamily="sans-serif-condensed"
                         android:gravity="center_horizontal"
                         android:maxLines="1"
+                        android:textColor="?attr/colorAccent"
                         android:text="Battery Level  "
-                        android:textAllCaps="true"
-                        android:textColor="@color/colorPrimary" />
+                        android:textAllCaps="true" />
 
 
                     <TextView
@@ -134,8 +144,7 @@
                         android:maxLines="1"
                         android:text=""
                         android:textAllCaps="true"
-                        android:textAppearance="?android:attr/textAppearanceSmall"
-                        android:textColor="#000000" />
+                        android:textAppearance="?android:attr/textAppearanceSmall" />
 
 
                 </LinearLayout>
@@ -145,8 +154,8 @@
                     android:layout_width="match_parent"
                     android:layout_height="0.5dp"
                     android:layout_marginLeft="10dp"
-                    android:layout_marginRight="10dp"
                     android:layout_marginTop="10dp"
+                    android:layout_marginRight="10dp"
                     android:background="@android:color/darker_gray" />
 
 
@@ -166,9 +175,9 @@
                         android:fontFamily="sans-serif-condensed"
                         android:gravity="center_horizontal"
                         android:maxLines="1"
+                        android:textColor="?attr/colorAccent"
                         android:text="Battery Type  "
-                        android:textAllCaps="true"
-                        android:textColor="@color/colorPrimary" />
+                        android:textAllCaps="true" />
 
 
                     <TextView
@@ -183,8 +192,7 @@
                         android:gravity="center_horizontal"
                         android:maxLines="1"
                         android:text=""
-                        android:textAllCaps="true"
-                        android:textColor="#000000" />
+                        android:textAllCaps="true" />
 
                 </LinearLayout>
 
@@ -193,8 +201,8 @@
                     android:layout_width="match_parent"
                     android:layout_height="0.5sp"
                     android:layout_marginLeft="10dp"
-                    android:layout_marginRight="10dp"
                     android:layout_marginTop="10dp"
+                    android:layout_marginRight="10dp"
                     android:background="@android:color/darker_gray" />
 
 
@@ -214,9 +222,9 @@
                         android:fontFamily="sans-serif-condensed"
                         android:gravity="center_horizontal"
                         android:maxLines="1"
+                        android:textColor="?attr/colorAccent"
                         android:text="Battery Temp  "
-                        android:textAllCaps="true"
-                        android:textColor="@color/colorPrimary" />
+                        android:textAllCaps="true" />
 
 
                     <TextView
@@ -232,8 +240,7 @@
                         android:maxLines="1"
                         android:text=""
                         android:textAllCaps="true"
-                        android:textAppearance="?android:attr/textAppearanceSmall"
-                        android:textColor="#000000" />
+                        android:textAppearance="?android:attr/textAppearanceSmall" />
 
                 </LinearLayout>
 
@@ -242,8 +249,8 @@
                     android:layout_width="match_parent"
                     android:layout_height="0.5sp"
                     android:layout_marginLeft="10dp"
-                    android:layout_marginRight="10dp"
                     android:layout_marginTop="10dp"
+                    android:layout_marginRight="10dp"
                     android:background="@android:color/darker_gray" />
 
 
@@ -263,9 +270,9 @@
                         android:fontFamily="sans-serif-condensed"
                         android:gravity="center_horizontal"
                         android:maxLines="1"
+                        android:textColor="?attr/colorAccent"
                         android:text="Power source  "
-                        android:textAllCaps="true"
-                        android:textColor="@color/colorPrimary" />
+                        android:textAllCaps="true" />
 
 
                     <TextView
@@ -280,8 +287,7 @@
                         android:gravity="center_horizontal"
                         android:maxLines="1"
                         android:text=""
-                        android:textAllCaps="true"
-                        android:textColor="#000000" />
+                        android:textAllCaps="true" />
 
                 </LinearLayout>
 
@@ -290,8 +296,8 @@
                     android:layout_width="match_parent"
                     android:layout_height="0.5sp"
                     android:layout_marginLeft="10dp"
-                    android:layout_marginRight="10dp"
                     android:layout_marginTop="10dp"
+                    android:layout_marginRight="10dp"
                     android:background="@android:color/darker_gray" />
 
 
@@ -311,9 +317,9 @@
                         android:fontFamily="sans-serif-condensed"
                         android:gravity="center_horizontal"
                         android:maxLines="1"
+                        android:textColor="?attr/colorAccent"
                         android:text="Battery Status  "
-                        android:textAllCaps="true"
-                        android:textColor="@color/colorPrimary" />
+                        android:textAllCaps="true" />
 
 
                     <TextView
@@ -328,8 +334,7 @@
                         android:gravity="center_horizontal"
                         android:maxLines="1"
                         android:text=""
-                        android:textAllCaps="true"
-                        android:textColor="#000000" />
+                        android:textAllCaps="true" />
 
                 </LinearLayout>
 
@@ -338,8 +343,8 @@
                     android:layout_width="match_parent"
                     android:layout_height="0.5sp"
                     android:layout_marginLeft="10dp"
-                    android:layout_marginRight="10dp"
                     android:layout_marginTop="10dp"
+                    android:layout_marginRight="10dp"
                     android:background="@android:color/darker_gray" />
 
 
@@ -359,9 +364,9 @@
                         android:fontFamily="sans-serif-condensed"
                         android:gravity="center_horizontal"
                         android:maxLines="1"
+                        android:textColor="?attr/colorAccent"
                         android:text="Battery Voltage "
-                        android:textAllCaps="true"
-                        android:textColor="@color/colorPrimary" />
+                        android:textAllCaps="true" />
 
 
                     <TextView
@@ -376,8 +381,7 @@
                         android:gravity="center_horizontal"
                         android:maxLines="1"
                         android:text=""
-                        android:textAllCaps="true"
-                        android:textColor="#000000" />
+                        android:textAllCaps="true" />
 
                 </LinearLayout>
 
@@ -386,8 +390,8 @@
                     android:layout_width="match_parent"
                     android:layout_height="0.5sp"
                     android:layout_marginLeft="20dp"
-                    android:layout_marginRight="20dp"
                     android:layout_marginTop="10dp"
+                    android:layout_marginRight="20dp"
                     android:background="@android:color/darker_gray" />
 
 
@@ -407,9 +411,9 @@
                         android:fontFamily="sans-serif-condensed"
                         android:gravity="center_horizontal"
                         android:maxLines="1"
+                        android:textColor="?attr/colorAccent"
                         android:text="Battery Health "
-                        android:textAllCaps="true"
-                        android:textColor="@color/colorPrimary" />
+                        android:textAllCaps="true" />
 
 
                     <TextView
@@ -424,8 +428,7 @@
                         android:gravity="center_horizontal"
                         android:maxLines="1"
                         android:text=""
-                        android:textAllCaps="true"
-                        android:textColor="#000000" />
+                        android:textAllCaps="true" />
 
                 </LinearLayout>
 
@@ -434,16 +437,16 @@
                     android:layout_width="match_parent"
                     android:layout_height="0.5sp"
                     android:layout_marginLeft="10dp"
-                    android:layout_marginRight="10dp"
                     android:layout_marginTop="10dp"
+                    android:layout_marginRight="10dp"
                     android:background="@android:color/darker_gray" />
 
 
                 <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:layout_marginBottom="15dp"
-                    android:layout_marginTop="10dp">
+                    android:layout_marginTop="10dp"
+                    android:layout_marginBottom="15dp">
 
 
                     <TextView
@@ -456,9 +459,9 @@
                         android:fontFamily="sans-serif-condensed"
                         android:gravity="center_horizontal"
                         android:maxLines="1"
+                        android:textColor="?attr/colorAccent"
                         android:text="Fast Charging "
-                        android:textAllCaps="true"
-                        android:textColor="@color/colorPrimary" />
+                        android:textAllCaps="true" />
 
 
                     <TextView
@@ -473,8 +476,7 @@
                         android:gravity="center_horizontal"
                         android:maxLines="1"
                         android:text=""
-                        android:textAllCaps="true"
-                        android:textColor="#000000" />
+                        android:textAllCaps="true" />
 
                 </LinearLayout>
 

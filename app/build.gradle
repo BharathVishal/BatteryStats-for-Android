@@ -3,14 +3,14 @@ apply plugin: 'com.android.application'
 apply plugin: 'kotlin-android'
 
 android {
-    compileSdkVersion 31
+    compileSdkVersion 32
     defaultConfig {
         vectorDrawables.useSupportLibrary = true
         applicationId "androidbatterystats.bharathvishal.com.androidbatterystats"
-        minSdkVersion 21
-        targetSdkVersion 31
-        versionCode 40
-        versionName "1.4.2"
+        minSdkVersion 23
+        targetSdkVersion 32
+        versionCode 45
+        versionName "1.5"
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
     }
     buildFeatures {
