@@ -52,5 +52,5 @@ Android Studio Arctic Fox | 2020.3.1 Patch 4
 
 
 &nbsp;
-© 2018-2021. Developed by Bharath Vishal (https://github.com/BharathVishal). Logo designed by Mirza Zulfan(https://github.com/mirzazulfan).
+© 2018-2022. Developed by Bharath Vishal (https://github.com/BharathVishal). Logo designed by Mirza Zulfan(https://github.com/mirzazulfan).
 Thank you. :smile:
