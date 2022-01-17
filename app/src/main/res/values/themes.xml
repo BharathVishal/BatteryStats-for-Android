@@ -27,7 +27,7 @@
         <item name="colorSurfaceInverse">@color/md_theme_light_inverseSurface</item>
         <item name="colorPrimaryInverse">@color/md_theme_light_primaryInverse</item>
 
-        <item name="android:windowLightStatusBar" tools:ignore="NewApi">true</item>
+        <item name="android:windowLightStatusBar">true</item>
         <item name="android:statusBarColor">?colorSurface</item>
     </style>
 </resources>
