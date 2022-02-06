@@ -42,7 +42,7 @@ Displays the Battery stats of an Android device using Broadcast receiver in Andr
 &nbsp;
 
 ### SDK Info : 
-Min SDK : 16  | Target SDK : 32 | Gradle : 7.0.4 | Kotlin
+Min SDK : 23  | Target SDK : 32 | Gradle : 7.0.4 | Kotlin
 
 &nbsp;
 
@@ -52,5 +52,5 @@ Android Studio Arctic Fox | 2020.3.1 Patch 4
 
 
 &nbsp;
-© 2018-2021. Developed by Bharath Vishal (https://github.com/BharathVishal). Logo designed by Mirza Zulfan(https://github.com/mirzazulfan).
+© 2018-2022. Developed by Bharath Vishal (https://github.com/BharathVishal). Logo designed by Mirza Zulfan(https://github.com/mirzazulfan).
 Thank you. :smile:
