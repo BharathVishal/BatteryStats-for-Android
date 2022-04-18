@@ -42,13 +42,13 @@ Displays the Battery stats of an Android device using Broadcast receiver in Andr
 &nbsp;
 
 ### SDK Info : 
-Min SDK : 23  | Target SDK : 32 | Gradle : 7.1.2 | Kotlin
+Min SDK : 23  | Target SDK : 32 | Gradle : 7.1.3 | Kotlin
 
 &nbsp;
 
 
 ### Android Studio Version : 
-Android Studio Bumblebee | 2021.1.1 Patch 2
+Android Studio Bumblebee | 2021.1.1 Patch 3
 
 
 &nbsp;
