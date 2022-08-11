@@ -121,7 +121,7 @@ class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         try {
-            DynamicColors.applyIfAvailable(this)
+            DynamicColors.applyToActivityIfAvailable(this)
         } catch (e: Exception) {
             e.printStackTrace()
         }
