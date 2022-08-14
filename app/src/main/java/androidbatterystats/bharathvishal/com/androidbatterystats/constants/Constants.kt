@@ -1,4 +1,4 @@
-package androidbatterystats.bharathvishal.com.androidbatterystats
+package androidbatterystats.bharathvishal.com.androidbatterystats.constants
 
 
 /**

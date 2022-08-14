@@ -53,4 +53,7 @@
     <color name="md_theme_dark_primaryInverse">#196D24</color>
     <color name="seed">#3C8C3F</color>
     <color name="error">#BA1B1B</color>
+
+
+    <color name="colorSplashDark">#303030</color>
 </resources>

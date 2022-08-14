@@ -1,4 +1,4 @@
-package androidbatterystats.bharathvishal.com.androidbatterystats
+package androidbatterystats.bharathvishal.com.androidbatterystats.activities
 
 import android.annotation.SuppressLint
 import android.content.BroadcastReceiver
@@ -8,6 +8,7 @@ import android.content.IntentFilter
 import android.os.BatteryManager
 import android.os.Build
 import android.os.Bundle
+import androidbatterystats.bharathvishal.com.androidbatterystats.constants.Constants
 import androidbatterystats.bharathvishal.com.androidbatterystats.databinding.ActivityMainBinding
 import androidx.appcompat.app.AppCompatActivity
 import com.google.android.material.color.DynamicColors
@@ -131,6 +132,7 @@ class MainActivity : AppCompatActivity() {
 
         //Get the context of the Activity
         activityContext = this
+
 
         val filter = IntentFilter(Intent.ACTION_BATTERY_CHANGED)
         activityContext.registerReceiver(batteryStatsReceiver, filter)

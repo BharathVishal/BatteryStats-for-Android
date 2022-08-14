@@ -1,4 +1,4 @@
-package androidbatterystats.bharathvishal.com.androidbatterystats
+package androidbatterystats.bharathvishal.com.androidbatterystats.application
 
 import android.app.Application
 import com.google.android.material.color.DynamicColors
