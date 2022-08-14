@@ -1,4 +1,5 @@
-package com.roottools.rootchecker.ui.theme
+package androidbatterystats.bharathvishal.com.androidbatterystats.activities
+
 
 import androidx.compose.ui.graphics.Color
 

@@ -25,7 +25,6 @@ import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 import com.google.android.material.color.DynamicColors
-import com.roottools.rootchecker.ui.theme.Material3AppTheme
 
 class MainActivityCompose : ComponentActivity() {
     private lateinit var activityContext: Context
@@ -209,7 +208,7 @@ class MainActivityCompose : ComponentActivity() {
                     horizontalAlignment = Alignment.CenterHorizontally,
                 )
                 {
-                    //Root Image logo composable function
+                    //Battery Info Image logo composable function
                     ImageLogo(batteryLevelStringVal.value)
                     TextHeader()
 
@@ -234,7 +233,7 @@ class MainActivityCompose : ComponentActivity() {
     }//end of card view main
 
 
-    //Root Image Logo composable function
+    //Battery Image Logo composable function
     @Composable
     fun ImageLogo(valueOfBatteryTemp: String) {
         Box(
@@ -263,7 +262,7 @@ class MainActivityCompose : ComponentActivity() {
         }
     }
 
-    //Root Checker app name Text
+    //Battery Info app name Text
     @Composable
     fun TextHeader() {
         Text(
@@ -277,7 +276,7 @@ class MainActivityCompose : ComponentActivity() {
     }
 
 
-    //Row component composable function for root related info
+    //Row component composable function for battery related info
     @Composable
     fun RowComponentInCard(strDesc: String, mutableVal: String) {
         Row(
