@@ -3,7 +3,7 @@
 </h1>
 
 # AndroidBatteryStats
-Displays the Battery stats of an Android device using Broadcast receiver in Android Studio.
+Displays the Battery stats of an Android device using Broadcast receiver in Android Studio. Fully implemented in Jetpack compose using Material 3 dynamic theming and also has a separate implementation with xml.
 
 
 ### Usage:
@@ -30,8 +30,8 @@ Displays the Battery stats of an Android device using Broadcast receiver in Andr
 
 &nbsp;
 ### Screenshots : 
-![Screenshot 1](https://github.com/BharathVishal/AndroidBatteryStats/blob/master/Screenshots/1.jpg?s=90)
-![Screenshot 2](https://github.com/BharathVishal/AndroidBatteryStats/blob/master/Screenshots/2.jpg?s=90)
+![Screenshot 1](https://github.com/BharathVishal/AndroidBatteryStats/blob/master/Screenshots/1.jpg?s=80)
+![Screenshot 2](https://github.com/BharathVishal/AndroidBatteryStats/blob/master/Screenshots/2.jpg?s=80)
 
 
 &nbsp;
@@ -42,7 +42,7 @@ Displays the Battery stats of an Android device using Broadcast receiver in Andr
 &nbsp;
 
 ### SDK Info : 
-Min SDK : 23  | Target SDK : 33 | Gradle : 7.2.1 | Kotlin
+Min SDK : 23  | Target SDK : 33 | Gradle : 7.2.2 | Kotlin | Jetpack Compose
 
 &nbsp;
 
