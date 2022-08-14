@@ -1,4 +1,4 @@
-package androidbatterystats.bharathvishal.com.androidbatterystats.activities
+package androidbatterystats.bharathvishal.com.androidbatterystats.theme
 
 
 import androidx.compose.foundation.shape.RoundedCornerShape

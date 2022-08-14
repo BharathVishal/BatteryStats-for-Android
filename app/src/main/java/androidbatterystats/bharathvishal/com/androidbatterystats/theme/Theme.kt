@@ -1,4 +1,4 @@
-package androidbatterystats.bharathvishal.com.androidbatterystats.activities
+package androidbatterystats.bharathvishal.com.androidbatterystats.theme
 
 
 import android.os.Build

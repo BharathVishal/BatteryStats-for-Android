@@ -10,6 +10,7 @@ import android.os.Build
 import android.os.Bundle
 import androidbatterystats.bharathvishal.com.androidbatterystats.R
 import androidbatterystats.bharathvishal.com.androidbatterystats.constants.Constants
+import androidbatterystats.bharathvishal.com.androidbatterystats.theme.Material3AppTheme
 import androidx.activity.ComponentActivity
 import androidx.activity.compose.setContent
 import androidx.compose.foundation.Image
