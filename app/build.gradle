@@ -9,8 +9,8 @@ android {
         applicationId "androidbatterystats.bharathvishal.com.androidbatterystats"
         minSdkVersion 23
         targetSdkVersion 33
-        versionCode 65
-        versionName "2.4"
+        versionCode 68
+        versionName "2.5"
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
     }
     buildFeatures {
@@ -41,6 +41,7 @@ android {
             excludes += '/META-INF/{AL2.0,LGPL2.1}'
         }
     }
+    namespace 'androidbatterystats.bharathvishal.com.androidbatterystats'
 }
 
 dependencies {
