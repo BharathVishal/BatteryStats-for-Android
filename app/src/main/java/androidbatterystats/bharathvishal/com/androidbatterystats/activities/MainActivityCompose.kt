@@ -177,7 +177,7 @@ class MainActivityCompose : ComponentActivity() {
     @OptIn(ExperimentalMaterial3Api::class)
     @Composable
     fun TopAppBarMain() {
-        SmallTopAppBar(
+        TopAppBar(
             title = { Text("Android Battery Stats  - Compose Activity") },
             colors = TopAppBarDefaults.smallTopAppBarColors(
                 titleContentColor = MaterialTheme.colorScheme.onSurfaceVariant,
