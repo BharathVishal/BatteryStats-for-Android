@@ -179,7 +179,7 @@ class MainActivityCompose : ComponentActivity() {
     fun TopAppBarMain() {
         TopAppBar(
             title = { Text("Android Battery Stats  - Compose Activity") },
-            colors = TopAppBarDefaults.smallTopAppBarColors(
+            colors = TopAppBarDefaults.topAppBarColors(
                 titleContentColor = MaterialTheme.colorScheme.onSurfaceVariant,
                 containerColor = MaterialTheme.colorScheme.surface
             )
