@@ -52,5 +52,5 @@ Android Studio Dolphin | 2021.3.1 Patch 1
 
 
 &nbsp;
-© 2018-2022. Developed by Bharath Vishal (https://github.com/BharathVishal). Logo designed by Mirza Zulfan(https://github.com/mirzazulfan).
+© 2018-2023. Developed by Bharath Vishal (https://github.com/BharathVishal). Logo designed by Mirza Zulfan(https://github.com/mirzazulfan).
 Thank you. :smile:
