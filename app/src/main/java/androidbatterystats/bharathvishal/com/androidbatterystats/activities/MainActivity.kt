@@ -1,18 +1,3 @@
-package androidbatterystats.bharathvishal.com.androidbatterystats.activities
-
-import android.annotation.SuppressLint
-import android.content.BroadcastReceiver
-import android.content.Context
-import android.content.Intent
-import android.content.IntentFilter
-import android.os.BatteryManager
-import android.os.Build
-import android.os.Bundle
-import androidbatterystats.bharathvishal.com.androidbatterystats.constants.Constants
-import androidbatterystats.bharathvishal.com.androidbatterystats.databinding.ActivityMainBinding
-import androidx.appcompat.app.AppCompatActivity
-import com.google.android.material.color.DynamicColors
-
 /**
  *
  * Copyright 2018-2023 Bharath Vishal G.
@@ -30,6 +15,22 @@ import com.google.android.material.color.DynamicColors
  * limitations under the License.
  *
  **/
+
+
+package androidbatterystats.bharathvishal.com.androidbatterystats.activities
+
+import android.annotation.SuppressLint
+import android.content.BroadcastReceiver
+import android.content.Context
+import android.content.Intent
+import android.content.IntentFilter
+import android.os.BatteryManager
+import android.os.Build
+import android.os.Bundle
+import androidbatterystats.bharathvishal.com.androidbatterystats.constants.Constants
+import androidbatterystats.bharathvishal.com.androidbatterystats.databinding.ActivityMainBinding
+import androidx.appcompat.app.AppCompatActivity
+import com.google.android.material.color.DynamicColors
 
 /*
  * Created by Bharath Vishal on 20-01-2018.

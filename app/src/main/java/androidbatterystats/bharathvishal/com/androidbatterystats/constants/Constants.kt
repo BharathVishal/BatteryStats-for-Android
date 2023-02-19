@@ -1,6 +1,3 @@
-package androidbatterystats.bharathvishal.com.androidbatterystats.constants
-
-
 /**
  *
  * Copyright 2018-2023 Bharath Vishal G.
@@ -18,6 +15,8 @@ package androidbatterystats.bharathvishal.com.androidbatterystats.constants
  * limitations under the License.
  *
  **/
+
+package androidbatterystats.bharathvishal.com.androidbatterystats.constants
 
 /*
  * Created by Bharath Vishal on 20-01-2018.

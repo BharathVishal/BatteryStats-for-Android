@@ -1,13 +1,3 @@
-package androidbatterystats.bharathvishal.com.androidbatterystats.activities
-
-import android.annotation.SuppressLint
-import android.content.Context
-import android.content.Intent
-import android.os.Build
-import android.os.Bundle
-import androidx.appcompat.app.AppCompatActivity
-import androidx.core.splashscreen.SplashScreen.Companion.installSplashScreen
-
 /**
  *
  * Copyright 2018-2023 Bharath Vishal G.
@@ -25,6 +15,16 @@ import androidx.core.splashscreen.SplashScreen.Companion.installSplashScreen
  * limitations under the License.
  *
  **/
+
+package androidbatterystats.bharathvishal.com.androidbatterystats.activities
+
+import android.annotation.SuppressLint
+import android.content.Context
+import android.content.Intent
+import android.os.Build
+import android.os.Bundle
+import androidx.appcompat.app.AppCompatActivity
+import androidx.core.splashscreen.SplashScreen.Companion.installSplashScreen
 
 class SplashActivity : AppCompatActivity() {
     private var actvityContext: Context? = null
