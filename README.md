@@ -52,5 +52,12 @@ Android Studio Electric Eel | 2022.1.1
 
 
 &nbsp;
+
+#### License : 
+[Apache License 2.0](https://github.com/BharathVishal/AndroidBatteryStats/blob/master/LICENSE)
+&nbsp;
+
+&nbsp;
+
 © 2018-2023. Developed by Bharath Vishal (https://github.com/BharathVishal). Logo designed by Mirza Zulfan(https://github.com/mirzazulfan).
 Thank you. :smile:
