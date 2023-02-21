@@ -60,4 +60,4 @@ Android Studio Electric Eel | 2022.1.1
 &nbsp;
 
 © 2018-2023. Developed by Bharath Vishal (https://github.com/BharathVishal). Logo designed by Mirza Zulfan(https://github.com/mirzazulfan).
-Thank you. :smile:
+Thank you. :slightly_smiling_face:
