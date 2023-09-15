@@ -2,7 +2,7 @@
 <img src="logo/1024 Logotype.svg" width=100%>
 </h1>
 
-# AndroidBatteryStats
+# BatteryStats-for-Android
 Displays the Battery stats of an Android device using Broadcast receiver in Android Studio. Fully implemented in Jetpack compose using Material 3 dynamic theming and also has a separate implementation with xml.
 
 
@@ -25,13 +25,13 @@ Displays the Battery stats of an Android device using Broadcast receiver in Andr
 
 &nbsp;
 ### Preview : 
-![Preview](https://github.com/BharathVishal/AndroidBatteryStats/blob/master/Preview/PreviewGif.gif)
+![Preview](https://github.com/BharathVishal/BatteryStats-for-Android/blob/master/Preview/PreviewGif.gif)
 
 
 &nbsp;
 ### Screenshots : 
-![Screenshot 1](https://github.com/BharathVishal/AndroidBatteryStats/blob/master/Screenshots/1.jpg?s=75)
-![Screenshot 2](https://github.com/BharathVishal/AndroidBatteryStats/blob/master/Screenshots/2.png?s=75)
+![Screenshot 1](https://github.com/BharathVishal/BatteryStats-for-Android/blob/master/Screenshots/1.jpg?s=75)
+![Screenshot 2](https://github.com/BharathVishal/BatteryStats-for-Android/blob/master/Screenshots/2.png?s=75)
 
 
 &nbsp;
@@ -54,7 +54,7 @@ Android Studio Giraffe | 2022.3.1 Patch 1
 &nbsp;
 
 #### License : 
-[Apache License 2.0](https://github.com/BharathVishal/AndroidBatteryStats/blob/master/LICENSE)
+[Apache License 2.0](https://github.com/BharathVishal/BatteryStats-for-Android/blob/master/LICENSE)
 &nbsp;
 
 &nbsp;
