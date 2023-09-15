@@ -1,17 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="CMakeSettings">
-    <configurations>
-      <configuration PROFILE_NAME="Debug" CONFIG_NAME="Debug" />
-    </configurations>
-  </component>
-  <component name="DesignSurface">
-    <option name="filePathToZoomLevelMap">
-      <map>
-        <entry key="..\:/Users/Vishal/Documents/GitHub Projects/AndroidBatteryStats/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.196" />
-        <entry key="..\:/Users/Vishal/Documents/GitHub Projects/AndroidBatteryStats/app/src/main/res/layout/activity_main.xml" value="0.22" />
-      </map>
-    </option>
-  </component>
+  <component name="ExternalStorageConfigurationManager" enabled="true" />
   <component name="ProjectRootManager" version="2" languageLevel="JDK_17" default="true" project-jdk-name="jbr-17" project-jdk-type="JavaSDK">
     <output url="file://$PROJECT_DIR$/build/classes" />
   </component>
