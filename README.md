@@ -30,8 +30,8 @@ Displays the Battery stats of an Android device using Broadcast receiver in Andr
 
 &nbsp;
 ### Screenshots : 
-![Screenshot 1](https://github.com/BharathVishal/BatteryStats-for-Android/blob/master/Screenshots/1.png?s=60)
-![Screenshot 2](https://github.com/BharathVishal/BatteryStats-for-Android/blob/master/Screenshots/2.png?s=75)
+![Screenshot 1](https://github.com/BharathVishal/BatteryStats-for-Android/blob/master/Screenshots/1.png?s=45)
+![Screenshot 2](https://github.com/BharathVishal/BatteryStats-for-Android/blob/master/Screenshots/2.png?s=60)
 
 
 &nbsp;
@@ -64,5 +64,6 @@ Android is a trademark of Google LLC.
 &nbsp;
 &nbsp;
 &nbsp;
+
 © 2018-2023. Developed by Bharath Vishal (https://github.com/BharathVishal). Logo designed by Mirza Zulfan(https://github.com/mirzazulfan).
 Thank you. :slightly_smiling_face:
