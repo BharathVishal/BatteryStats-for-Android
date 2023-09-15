@@ -1,5 +1,5 @@
 ﻿<h1 align=center>
-<img src="logo/1024 Logotype.svg" width=100%>
+<img src="logo/1024 LogotypeNew.png" width=100%>
 </h1>
 
 # BatteryStats-for-Android
@@ -30,7 +30,7 @@ Displays the Battery stats of an Android device using Broadcast receiver in Andr
 
 &nbsp;
 ### Screenshots : 
-![Screenshot 1](https://github.com/BharathVishal/BatteryStats-for-Android/blob/master/Screenshots/1.jpg?s=75)
+![Screenshot 1](https://github.com/BharathVishal/BatteryStats-for-Android/blob/master/Screenshots/1.png?s=75)
 ![Screenshot 2](https://github.com/BharathVishal/BatteryStats-for-Android/blob/master/Screenshots/2.png?s=75)
 
 
