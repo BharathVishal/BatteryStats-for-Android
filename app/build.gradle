@@ -8,8 +8,8 @@ android {
         applicationId "com.bharathvishal.batterystatsforandroid"
         minSdkVersion 23
         targetSdkVersion 34
-        versionCode 91
-        versionName "3.5"
+        versionCode 94
+        versionName "3.6"
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
     }
     buildFeatures {
@@ -32,7 +32,7 @@ android {
         jvmTarget = "17"
     }
     composeOptions {
-        kotlinCompilerExtensionVersion "1.5.7"
+        kotlinCompilerExtensionVersion "1.5.11"
     }
     packagingOptions {
         resources {
@@ -53,13 +53,13 @@ dependencies {
     implementation 'androidx.cardview:cardview:1.0.0'
     androidTestImplementation 'androidx.test:runner:1.5.2'
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.5.1'
-    implementation 'androidx.compose.material3:material3:1.2.0-beta01'
-    implementation "androidx.compose.material3:material3-window-size-class:1.2.0-beta01"
-    implementation 'androidx.lifecycle:lifecycle-runtime-ktx:2.6.2'
+    implementation 'androidx.compose.material3:material3:1.2.1'
+    implementation "androidx.compose.material3:material3-window-size-class:1.2.1"
+    implementation 'androidx.lifecycle:lifecycle-runtime-ktx:2.7.0'
     implementation 'androidx.activity:activity-compose:1.8.2'
-    androidTestImplementation "androidx.compose.ui:ui-test-junit4:1.5.4"
+    androidTestImplementation "androidx.compose.ui:ui-test-junit4:1.6.5"
     implementation 'androidx.core:core-splashscreen:1.0.1'
-    debugImplementation 'androidx.compose.ui:ui-tooling:1.5.4'
-    implementation "androidx.compose.ui:ui-tooling-preview:1.5.4"
+    debugImplementation 'androidx.compose.ui:ui-tooling:1.6.5'
+    implementation "androidx.compose.ui:ui-tooling-preview:1.6.5"
     implementation "com.google.accompanist:accompanist-systemuicontroller:0.28.0"
 }
