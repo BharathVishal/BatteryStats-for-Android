@@ -13,9 +13,9 @@ android {
             useSupportLibrary = true
         }
         minSdk = 23
-        targetSdk = 34
-        versionCode = 94
-        versionName = "3.7"
+        targetSdk = 35
+        versionCode = 95
+        versionName = "3.8"
         testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
     }
     buildFeatures {
