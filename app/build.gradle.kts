@@ -6,7 +6,7 @@ plugins {
 
 android {
     namespace = "com.bharathvishal.batterystatsforandroid"
-    compileSdk = 34
+    compileSdk = 35
     defaultConfig {
         applicationId = "com.bharathvishal.batterystatsforandroid"
         vectorDrawables {
