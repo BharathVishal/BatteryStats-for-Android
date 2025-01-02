@@ -42,14 +42,13 @@ Displays the Battery stats of an Android device using Broadcast receiver in Andr
 &nbsp;
 
 ### SDK Info : 
-Min SDK : 23  | Target SDK : 35 | Gradle : 8.6.0 | Kotlin | Jetpack Compose
+Min SDK : 23  | Target SDK : 35 | Gradle : 8.9.0 | Kotlin | Jetpack Compose
 
 &nbsp;
 
 
 ### Android Studio Version : 
-Android Studio Koala Feature Drop | 2024.1.2
-
+Android Studio Ladybug | 2024.2.1 Patch 3
 
 
 &nbsp;
@@ -66,5 +65,5 @@ Android is a trademark of Google LLC.
 &nbsp;
 &nbsp;
 
-© 2018-2024. Developed by Bharath Vishal (https://github.com/BharathVishal). Logo designed by Mirza Zulfan(https://github.com/mirzazulfan).
+© 2018-2025. Developed by Bharath Vishal (https://github.com/BharathVishal). Logo designed by Mirza Zulfan(https://github.com/mirzazulfan).
 Thank you. :slightly_smiling_face:
