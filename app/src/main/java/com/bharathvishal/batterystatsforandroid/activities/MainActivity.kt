@@ -24,10 +24,18 @@ import android.content.BroadcastReceiver
 import android.content.Context
 import android.content.Intent
 import android.content.IntentFilter
+import android.content.res.Configuration
 import android.os.BatteryManager
 import android.os.Build
 import android.os.Bundle
+import android.view.View
+import android.view.WindowInsets
+import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
+import androidx.core.view.ViewCompat
+import androidx.core.view.WindowInsetsCompat
+import androidx.core.view.updatePadding
+import com.bharathvishal.batterystatsforandroid.R
 import com.bharathvishal.batterystatsforandroid.constants.Constants
 import com.bharathvishal.batterystatsforandroid.databinding.ActivityMainBinding
 import com.google.android.material.color.DynamicColors
@@ -138,6 +146,15 @@ class MainActivity : AppCompatActivity() {
 
 
     override fun onCreate(savedInstanceState: Bundle?) {
+        //1.2.6
+        try {
+            if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.VANILLA_ICE_CREAM) {
+                enableEdgeToEdge()
+            }
+        } catch (e: Exception) {
+            e.printStackTrace()
+        }
+
         super.onCreate(savedInstanceState)
         try {
             DynamicColors.applyToActivityIfAvailable(this)
@@ -150,6 +167,39 @@ class MainActivity : AppCompatActivity() {
 
         //Get the context of the Activity
         activityContext = this
+
+
+        try {
+            if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.VANILLA_ICE_CREAM) {
+                val viewTempAppBar = findViewById<View>(R.id.appbarlayout1);
+                viewTempAppBar.setOnApplyWindowInsetsListener { view, insets ->
+                    val statusBarInsets = insets.getInsets(WindowInsets.Type.statusBars())
+
+                    val nightModeFlags: Int = activityContext.resources
+                        .getConfiguration().uiMode and Configuration.UI_MODE_NIGHT_MASK
+                    val isDarkMode = nightModeFlags == Configuration.UI_MODE_NIGHT_YES
+                    val isDynamicTheme = DynamicColors.isDynamicColorAvailable();
+                    // Adjust padding to avoid overlap
+                    view.setPadding(0, statusBarInsets.top, 0, 0)
+                    insets
+                }
+
+                val tempL: View = findViewById<View>(R.id.card_view);
+                ViewCompat.setOnApplyWindowInsetsListener(tempL) { view, windowInsets ->
+                    val insets = windowInsets.getInsets(WindowInsetsCompat.Type.systemGestures())
+                    // Apply the insets as padding to the view. Here, set all the dimensions
+                    // as appropriate to your layout. You can also update the view's margin if
+                    // more appropriate.
+                    tempL.updatePadding(0, 0, 0, insets.bottom)
+
+                    // Return CONSUMED if you don't want the window insets to keep passing down
+                    // to descendant views.
+                    WindowInsetsCompat.CONSUMED
+                }
+            }
+        } catch (e: Exception) {
+            e.printStackTrace()
+        }
 
 
         val filter = IntentFilter(Intent.ACTION_BATTERY_CHANGED)
