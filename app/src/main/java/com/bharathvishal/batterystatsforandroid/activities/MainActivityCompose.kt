@@ -32,6 +32,7 @@ import androidx.activity.compose.setContent
 import androidx.activity.enableEdgeToEdge
 import androidx.compose.foundation.Image
 import androidx.compose.foundation.layout.*
+import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.material3.*
 import androidx.compose.runtime.Composable
@@ -310,37 +311,27 @@ class MainActivityCompose : ComponentActivity() {
         Row(
             modifier = Modifier
                 .fillMaxWidth()
-                .padding(5.dp),
+                .padding(5.dp)
+                .padding(horizontal = 24.dp),
             verticalAlignment = Alignment.CenterVertically,
-            horizontalArrangement = Arrangement.Center,
+            horizontalArrangement = Arrangement.SpaceBetween,
         ) {
-            Column(
-                modifier = Modifier.weight(0.5f),
-                horizontalAlignment = Alignment.CenterHorizontally,
-                verticalArrangement = Arrangement.Center
-            ) {
-                Text(
-                    text = strDesc,
-                    textAlign = TextAlign.Left,
-                    modifier = Modifier
-                        .padding(5.dp),
-                    style = MaterialTheme.typography.bodyMedium,
-                    color = MaterialTheme.colorScheme.primary
-                )
-            }
-            Column(
-                modifier = Modifier.weight(0.5f),
-                horizontalAlignment = Alignment.CenterHorizontally,
-                verticalArrangement = Arrangement.Center
-            ) {
-                Text(
-                    text = mutableVal,
-                    textAlign = TextAlign.Right,
-                    modifier = Modifier
-                        .padding(5.dp),
-                    style = MaterialTheme.typography.bodyMedium,
-                )
-            }
+
+            Text(
+                text = strDesc,
+                textAlign = TextAlign.Left,
+                modifier = Modifier
+                    .padding(5.dp),
+                style = MaterialTheme.typography.bodyMedium,
+                color = MaterialTheme.colorScheme.primary
+            )
+            Text(
+                text = mutableVal,
+                textAlign = TextAlign.Right,
+                modifier = Modifier
+                    .padding(5.dp),
+                style = MaterialTheme.typography.bodyMedium,
+            )
         }
     }
 
