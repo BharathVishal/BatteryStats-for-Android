@@ -14,8 +14,8 @@ android {
         }
         minSdk = 23
         targetSdk = 36
-        versionCode = 99
-        versionName = "4.0"
+        versionCode = 100
+        versionName = "4.1"
         testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
     }
     buildFeatures {
@@ -51,7 +51,6 @@ android {
     composeOptions {
         kotlinCompilerExtensionVersion = "1.5.15"
     }
-
     packaging {
         jniLibs {
             excludes += "/META-INF/{AL2.0,LGPL2.1}"
