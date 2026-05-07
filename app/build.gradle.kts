@@ -3,11 +3,11 @@ import org.jetbrains.kotlin.gradle.dsl.JvmTarget
 
 plugins {
     alias(libs.plugins.android.application)
-    alias(libs.plugins.jetbrains.kotlin.android)
     alias(libs.plugins.compose.compiler)
 }
 
 android {
+    buildFeatures.buildConfig = false
     namespace = "com.bharathvishal.batterystatsforandroid"
     compileSdk = 36
     defaultConfig {
