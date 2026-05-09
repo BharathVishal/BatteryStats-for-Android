@@ -1,3 +1,4 @@
+import com.android.build.api.dsl.ApplicationExtension
 import org.gradle.kotlin.dsl.assign
 import org.jetbrains.kotlin.gradle.dsl.JvmTarget
 
@@ -6,7 +7,7 @@ plugins {
     alias(libs.plugins.compose.compiler)
 }
 
-android {
+extensions.configure<ApplicationExtension> {
     buildFeatures.buildConfig = false
     namespace = "com.bharathvishal.batterystatsforandroid"
     compileSdk = 36
@@ -17,8 +18,8 @@ android {
         }
         minSdk = 23
         targetSdk = 36
-        versionCode = 103
-        versionName = "4.3"
+        versionCode = 104
+        versionName = "4.4"
         testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
     }
     buildFeatures {
@@ -44,13 +45,8 @@ android {
         }
     }
     compileOptions {
-        sourceCompatibility = JavaVersion.VERSION_17
-        targetCompatibility = JavaVersion.VERSION_17
-    }
-    kotlin {
-        compilerOptions {
-            jvmTarget = JvmTarget.JVM_17
-        }
+        sourceCompatibility = JavaVersion.VERSION_21
+        targetCompatibility = JavaVersion.VERSION_21
     }
     composeOptions {
         kotlinCompilerExtensionVersion = "1.5.15"

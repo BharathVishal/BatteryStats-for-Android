@@ -1467,6 +1467,18 @@
         <PersistentDeviceSelectionData>
           <option name="api" value="36" />
           <option name="brand" value="samsung" />
+          <option name="codename" value="q7mq" />
+          <option name="id" value="q7mq" />
+          <option name="labId" value="google" />
+          <option name="manufacturer" value="Samsung" />
+          <option name="name" value="Galaxy Z TriFold" />
+          <option name="screenDensity" value="320" />
+          <option name="screenX" value="2160" />
+          <option name="screenY" value="1584" />
+        </PersistentDeviceSelectionData>
+        <PersistentDeviceSelectionData>
+          <option name="api" value="36" />
+          <option name="brand" value="samsung" />
           <option name="codename" value="r0q" />
           <option name="id" value="r0q" />
           <option name="labId" value="google" />
