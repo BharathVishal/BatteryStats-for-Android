@@ -10,16 +10,16 @@ plugins {
 extensions.configure<ApplicationExtension> {
     buildFeatures.buildConfig = false
     namespace = "com.bharathvishal.batterystatsforandroid"
-    compileSdk = 36
+    compileSdk = 37
     defaultConfig {
         applicationId = "com.bharathvishal.batterystatsforandroid"
         vectorDrawables {
             useSupportLibrary = true
         }
         minSdk = 23
-        targetSdk = 36
-        versionCode = 104
-        versionName = "4.4"
+        targetSdk = 37
+        versionCode = 105
+        versionName = "4.5"
         testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
     }
     buildFeatures {
@@ -75,7 +75,6 @@ dependencies {
     androidTestImplementation(libs.androidx.espresso.core)
     implementation(libs.androidx.cardview)
     implementation(libs.androidx.compose.material3)
-    implementation(libs.androidx.compose.material3.windowsize)
     implementation(libs.androidx.compose.material3.windowsize)
     implementation(libs.androidx.lifecycle.runtime.ktx)
     implementation(libs.androidx.activity.compose)
